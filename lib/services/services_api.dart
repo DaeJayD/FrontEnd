@@ -5,7 +5,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 class ApiService {
 // static const String baseUrl = 'http://10.0.2.2:5000/api/auth/register'; // Use this for Android emulator
  static const String baseUrl = 'http://localhost:5000/api'; // Use this for iOS simulator
-  // static const String baseUrl = 'https://your-deployed-api.com/api'; // Use this for production
 
   // Register a new user
   static Future<Map<String, dynamic>?> registerUser(String username, String email, String password, {String? phone}) async {
